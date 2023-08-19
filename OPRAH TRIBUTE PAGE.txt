@@ -1,0 +1,147 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Oprah Winfrey | Tribute Page</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="title">Oprah Gail Winfrey</div>
+      <!-- White background header START -->
+      <div id="header">
+      <div id="img-div">
+        <img id="image" src="https://www.amacad.org/sites/default/files/person/headshots/oprah.jpg"/>
+        <div id="img-caption">
+        <h4>Oprah Winfrey is a media mogul, talk show host, and philanthropist known for her influential impact on television and her dedication to empowering others through charitable work.</h4>
+        </div>
+        </div>
+      </div> <!-- White background header END -->
+    <div id="tribute-info">
+      <h3 id="headline">Here's a timeline of Oprah Gail Winfrey's life to date:</h3>
+        <ul>
+          <li>
+            <strong>1954</strong>
+            - Born on January 29th in Kosciusko, Mississippi.</li>
+          <li>
+            <strong>1971</strong> - Wins Miss Black Tennessee beauty pageant at 17.
+          </li>
+          <li>
+            <strong>1976</strong> - Starts broadcasting career and becomes the first African-American female news anchor.
+          </li>
+          <li>
+            <strong>1986</strong> - "The Oprah Winfrey Show" debuts nationally in syndication.
+          </li>
+         <li>
+            <strong>1988</strong> - Establishes Harpo Productions, her multimedia company.
+          </li>
+          <li>
+            <strong>1996</strong> - Launches Oprah's Book Club, influencing book sales worldwide.
+          </li>
+          <li>
+            <strong>2005</strong> - Becomes the first African-American woman listed as a billionaire by Forbes.
+          </li>
+          <li>
+            <strong>2011</strong> - Ends "The Oprah Winfrey Show" after 25 successful years.
+          </li>
+          <li>
+            <strong>2013</strong> - Receives the Presidential Medal of Freedom.
+          </li>
+          <li>
+            <strong>2018</strong> - Delivers a powerful speech at the Golden Globe Awards.
+          </li>
+          <li>
+            <strong>Present</strong> - Oprah continues to maintain her status as one of the most influential and respected figures in the entertainment industry.
+          </li>
+        </ul>
+    </div>
+    <div id="tribute-quote">
+      <p>"Oprah Winfrey represents the most ingenious and creative expression of black spiritual genius in the public mainstream that we've had in quite a long time, if ever."</p>
+      <p>-- Michael Eric Dyson (Academic, Author, Minister.)</p>
+    </div>
+    <div id="footer-link">
+      <h3>If you have time, you should read more about this incredible woman on her <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Oprah_Winfrey">Wikipedia entry.</h3>
+    </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#main {
+background-color: #8ebba7;
+  font-family: "Verdana";
+  width: 100%;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+#header {
+background-color: #f1f3f2;
+margin: 10;
+padding: 10px;
+border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#image {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 20;
+  margin-bottom: 5;
+}
+
+#headline {
+  text-align: center;
+  margin: 50px 0;
+}
+
+ul {
+ max-width: 550px;
+ margin: 0 auto 50px auto;
+ text-align: left;
+ line-height: 1.6;
+}
+
+li {
+  padding: 5px;
+}
+
+#tribute-quote {
+  max-width: 550px;
+ margin: 0 auto 50px auto;
+ text-align: left;
+ line-height: 1.6;
+}
+
+#tribute-quote p {
+  font-style: italic;
+}
+
+ #footer-link{
+  max-width: 700px;
+ margin: 0 auto 50px auto;
+ text-align: left;
+ line-height: 1.6;
+}
+
+
+** end of undefined **
+
